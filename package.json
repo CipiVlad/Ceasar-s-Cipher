@@ -1,0 +1,25 @@
+{
+  "name": "ceasarscipher",
+  "version": "1.0.0",
+  "description": "Ceasar's Cipher with for loop",
+  "main": "cipher.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CipiVlad/Ceasar-s-Cipher.git"
+  },
+  "keywords": [
+    "cipher",
+    "decode",
+    "encode"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CipiVlad/Ceasar-s-Cipher/issues"
+  },
+  "homepage": "https://github.com/CipiVlad/Ceasar-s-Cipher#readme"
+}
