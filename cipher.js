@@ -1,12 +1,10 @@
-import * as dotenv from 'dotenv'
-dotenv.config()
-
-
 //Alphabet --> USE THIS FOR SECRET MESSAGE
-let oderedAlphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+let oderedAlphabet =
+    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 //Alphabet Z = A --> READ HERE, WHAT YOU WANT TO HIDE
-let alphaZA = ['Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
+let alphaZA =
+    ['Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
 
 
 //Cipher Generator
@@ -36,7 +34,7 @@ function cipherDecoder(secret) {
 
 //call genFunction with secret message
 console.log(
-    cipherDecoder('FSJL')
+    cipherDecoder('BDZRZQRBHOGDQ')
 );
 
 /**
